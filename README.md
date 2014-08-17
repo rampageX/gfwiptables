@@ -7,7 +7,7 @@ A router script against GFW DNS pollution.
 
 然后你的路由器能加载脚本
 
-可以完美解决GFW的DNS污染问题
+本脚本可以完美解决GFW的DNS污染问题
 
 不能解决IP封锁问题
 
@@ -20,3 +20,5 @@ A router script against GFW DNS pollution.
 设置为初始化脚本或者防火墙脚本
 
 每行IP不得超过10个
+
+发现新的污染IP请及时通知
