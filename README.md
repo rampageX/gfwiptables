@@ -3,11 +3,13 @@ gfwiptables
 
 A router script against GFW DNS pollution.
 
+首先你要有一个路由器
+
+然后你的路由器能加载脚本
+
 可以完美解决GFW的DNS污染问题
 
 不能解决IP封锁问题
-
-路由器专用
 
 必须关闭内置DNS功能
 
