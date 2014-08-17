@@ -22,3 +22,17 @@ A router script against GFW DNS pollution.
 每行IP不得超过10个
 
 发现新的污染IP请及时通知
+
+具体原理和与DNSMASQ的区别：
+
+正常的DNS查询
+客户端发送DNS查询->（接受）服务器返回正确结果
+
+污染的DNS查询
+客户端发送DNS查询->（接受）GFW返回伪造结果->（丢弃）服务器返回正确结果
+
+iptables过滤
+客户端发送DNS查询->（过滤并丢弃）GFW返回伪造结果->（接受）服务器返回正确结果
+
+dnsmasq过滤
+客户端发送DNS查询->（接受并过滤）GFW返回伪造结果->（丢弃）服务器返回正确结果
