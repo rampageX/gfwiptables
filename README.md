@@ -3,6 +3,8 @@ gfwiptables
 
 A router script against GFW DNS pollution.
 
+脚本内容来自网络分享
+
 本脚本针对GFW的污染IP进行过滤
 
 首先你要有一个路由器
